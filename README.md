@@ -82,9 +82,15 @@ def sarsa(env, gamma=1.0, init_alpha=0.5, min_alpha=0.01, alpha_decay_ratio=0.5,
 ```
 
 ## OUTPUT:
-Mention the optimal policy, optimal value function , success rate for the optimal policy.
+### OPTIMAL STATE VALUE FUNCTIONS:
+![op](./q1.png)
+### OPTIMAL ACTION VALUE FUNCTIONS:
+![op](./q2.png)
+### FIRST VISIT MONTE CARLO ESTIMATES:
+![op](./q3.png)
+### SARSA ESTIMATES:
+![op](./q4.png)
 
-Include plot comparing the state value functions of Monte Carlo method and SARSA learning.
 
 ## RESULT:
 
